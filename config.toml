@@ -8,11 +8,11 @@ publishdir = "mantrala.github.io"
 [Author]
   name = "Sarath Mantrala"
 
-[Permalinks]
+[permalinks]
   post = "/:year/:month/:slug/"
   page = "/:slug/"
 
-[Taxonomies]
+[taxonomies]
   tag = "tags"
   category = "categories"
 
