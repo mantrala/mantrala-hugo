@@ -1,0 +1,3 @@
+[submodule "mantrala.github.io"]
+	path = mantrala.github.io
+	url = git@github.com:mantrala/mantrala.github.io.git

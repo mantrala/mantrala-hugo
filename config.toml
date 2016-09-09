@@ -1,0 +1,39 @@
+baseurl = "http://mantrala.github.io"
+languageCode = "en-us"
+title = "Sarath Mantrala"
+theme = "hugo-phlat-theme"
+copyright = "Sarath Mantrala"
+publishdir = "mantrala.github.io"
+
+[Author]
+  name = "Sarath Mantrala"
+
+[Permalinks]
+  post = "/:year/:month/:slug/"
+  page = "/:slug/"
+
+[Taxonomies]
+  tag = "tags"
+  category = "categories"
+
+# The header menu will appear as an inline-list at the top right of the page
+[[menu.header]]
+  name                = "Home"
+  weight              = 1
+  url                 = "/"
+
+[[menu.header]]
+  name                = "About"
+  weight              = 3
+  url                 = "/about/"
+
+[params]
+  description = "Random thoughts..."
+  keywords = ["default", "keywords", "if", "no", "front", "matter"]
+  # google_analytics = "UA-XXXXXXX-YY"
+  # disqus = "site_name_here"
+
+[social]
+  twitter = "https://www.twitter.com/iSarath"
+  linkedin = "https://www.linkedin.com/in/smantrala"
+
